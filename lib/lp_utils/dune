@@ -1,0 +1,5 @@
+(library
+ (name lp_utils)
+ (libraries core gmp)
+ (preprocess
+  (pps ppx_jane)))

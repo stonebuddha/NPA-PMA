@@ -1,0 +1,7 @@
+i, x, y, z = 0, 1, 1, 1
+while true:
+	  x = x + 1 {1/2} x + 2
+		y = y + z + x * x {1/3} y - z - x
+		z = z + y {1/4} z - y
+		i = i + 1
+end

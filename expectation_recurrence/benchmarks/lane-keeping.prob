@@ -1,0 +1,7 @@
+i = 0
+while true:
+	  y = y + 0.1 * x
+		z = Uniform(-0.1, 0.1)
+		x = 0.8 * x + z
+		i = i + 1
+end

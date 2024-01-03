@@ -1,0 +1,5 @@
+(executable
+ (name test)
+ (libraries core pmaf srk arith_lang)
+ (preprocess
+  (pps ppx_jane ppx_deriving_yojson)))

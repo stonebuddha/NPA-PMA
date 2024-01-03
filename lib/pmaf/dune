@@ -1,0 +1,6 @@
+(library
+ (name pmaf)
+ (modules_without_implementation sig)
+ (libraries core hyper_graph yojson)
+ (preprocess
+  (pps ppx_jane ppx_deriving_yojson)))

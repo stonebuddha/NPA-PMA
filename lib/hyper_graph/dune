@@ -1,0 +1,6 @@
+(library
+ (name hyper_graph)
+ (modules_without_implementation sig)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane)))

@@ -1,0 +1,12 @@
+(library
+ (name clp)
+ (libraries core gmp)
+ (preprocess
+  (pps ppx_jane))
+ (foreign_stubs
+  (language c)
+  (names stubs)
+  (flags -O2 -fPIC))
+ (library_flags
+  (:standard -linkall))
+ (c_library_flags -lClp -lCoinUtils))

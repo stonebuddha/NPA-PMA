@@ -1,0 +1,5 @@
+(executable
+ (name test)
+ (libraries core pmaf clp lp_utils one_state_lang)
+ (preprocess
+  (pps ppx_jane)))

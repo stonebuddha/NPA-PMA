@@ -1,0 +1,11 @@
+(library
+ (name arith_lang)
+ (libraries core gmp compiler-libs.common menhirLib pmaf)
+ (preprocess
+  (pps ppx_jane)))
+
+(menhir
+ (flags --table)
+ (modules parser))
+
+(ocamllex lexer)

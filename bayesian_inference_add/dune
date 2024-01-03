@@ -1,0 +1,5 @@
+(executable
+ (name test)
+ (libraries core pmaf cudd bool_lang)
+ (preprocess
+  (pps ppx_jane)))
